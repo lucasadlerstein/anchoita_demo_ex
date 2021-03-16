@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { useEffect } from 'react';\n\nconst Error = () => {\n  useEffect(() => {\n    window.location.replace(\"/\"); // eslint-disable-next-line\n  }, []);\n  return null;\n};\n\nError.getInitialProps = async () => ({\n  namespacesRequired: []\n});\n\nexport default Error;","map":null,"metadata":{},"sourceType":"module"}

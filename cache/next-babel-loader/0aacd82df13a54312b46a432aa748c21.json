@@ -1,0 +1,1 @@
+{"ast":null,"code":"import axios from 'axios'; // require('dotenv').config()\n\nconst clienteAxios = axios.create({\n  baseURL: `https://anchapi.infinidad.com.ar/api`\n});\nexport default clienteAxios;","map":null,"metadata":{},"sourceType":"module"}

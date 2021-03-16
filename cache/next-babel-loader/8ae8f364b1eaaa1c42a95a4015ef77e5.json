@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { useEffect } from 'react';\n\nconst E404 = () => {\n  useEffect(() => {\n    window.location.replace(\"/\"); // eslint-disable-next-line\n  }, []);\n  return null;\n};\n\nE404.getInitialProps = async () => ({\n  namespacesRequired: []\n});\n\nexport default E404;","map":null,"metadata":{},"sourceType":"module"}
